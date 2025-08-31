@@ -35,10 +35,10 @@ cd MovingMouse
 To compile the project as a Windows executable:
 
 ```bash
-go build -o app.exe main.go
+GOOS=windows GOARCH=amd64 go build -o Mov-O.exe main.go
 ```
 
-This will generate a file named **`app.exe`** in the current directory 
+This will generate a file named **`Mov-O.exe`** in the current directory 
 
 ---
 
