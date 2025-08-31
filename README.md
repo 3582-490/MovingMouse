@@ -24,8 +24,8 @@ go version
 ### 2. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/your-repo.git
-cd your-repo
+git clone https://github.com/3582-490/MovingMouse.git
+cd MovingMouse
 ```
 
 ---
