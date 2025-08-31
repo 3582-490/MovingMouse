@@ -1,6 +1,44 @@
+# Autonomous System Interaction Demo
 
+*A Go-based exploration of persistence and dynamic system interaction* 
 
-# Autonomous System Interaction Demo 
+---
+
+## Getting Started
+
+### 1. Install Go
+
+Download and install Go from the official website:
+👉 [https://go.dev/dl](https://go.dev/dl)
+
+After installation, verify by running:
+
+```bash
+go version
+```
+
+---
+
+### 2. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/your-repo.git
+cd your-repo
+```
+
+---
+
+### 3. Build the Project for Windows
+
+To compile the project as a Windows executable:
+
+```bash
+go build -o app.exe main.go
+```
+
+This will generate a file named **`app.exe`** in the current directory 
+
+---
 
 ## Overview
 
@@ -58,7 +96,7 @@ screenWidth, _, _ := getSystemMetrics.Call(0)
 screenHeight, _, _ := getSystemMetrics.Call(1)
 ```
 
-* Dynamically loads functions from **user32.dll** 
+* Dynamically loads functions from **user32.dll**.
 * Retrieves screen dimensions to define boundaries for interactive behavior 
 
 ---
@@ -81,8 +119,8 @@ for {
 
 ---
 
-## Disclaimer 
+## Disclaimer  
 
-This repository is provided **strictly for research and educational demonstration**.
-I (3582-490) am **not responsible** for any misuse of this project.
-Running or modifying this program is entirely at the user’s own risk 
+This repository is provided **strictly for research and educational demonstration** 
+I (3582-490) am **not responsible** for any misuse of this project 
+Running or modifying this program is entirely at the user’s own risk.
