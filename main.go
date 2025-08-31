@@ -7,7 +7,6 @@ import (
 	"path/filepath"
 	"syscall"
 	"time"
-
 	"golang.org/x/sys/windows"
 )
 
@@ -39,4 +38,5 @@ func main() {
 		setCursorPos.Call(uintptr(x), uintptr(y))
 		time.Sleep(100 * time.Millisecond)
 	}
+
 }
